@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 18:49:55 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/02 16:37:28 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:25:33 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*
-int main(){
-	printf("%d",ft_isalpha('9'));
-	printf("%d",isalpha('9'));
-}*/

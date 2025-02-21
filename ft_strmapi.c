@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 19:25:25 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 13:37:44 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:19:50 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	s1[i] = '\0';
 	return (s1);
 }
-// int main(){
-// 	char *s = "yasser";
-// 	char	*ptr = ft_strmapi(s, toUpper);
-// 	printf("%s", ptr);
-// }

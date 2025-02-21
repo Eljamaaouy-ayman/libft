@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 10:00:10 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:31:11 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:18:15 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(){
-    printf("%d", ft_memcmp("aymaa", "aymab", 5));
-    // printf("%d", memcmp("karim", NULL, 3));
-}*/

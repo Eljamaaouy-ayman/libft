@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 18:02:07 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/02 14:27:43 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:19:34 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	size_t	i;
 
 	src_len = ft_strlen(src);
+	if (dst == NULL && dstsize == 0)
+		return (src_len);
 	dst_len = ft_strlen(dst);
 	if (dstsize <= dst_len)
 		return (src_len + dstsize);
@@ -31,20 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (dst_len + src_len);
 }
-/*
-int	main(void) {
-	char dst[20] = "Hello";
-	const char *src = " World";
-	size_t size = 20;
-
-	size_t result = strlcat(dst, src, size);
-
-	printf("Final string: %s\n", dst);
-	printf("Total length: %zu\n", result);
-
-	// size_t result = strlcat(dst, src, size);
-	// printf("Final string: %s\n", dst);
-	// printf("Total length: %zu\n", result);
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 10:06:22 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 09:45:21 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 15:09:50 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_atoi(const char *str)
 {
-	size_t				i;
-	unsigned long long	number;
-	int					sign;
+	size_t	i;
+	long	number;
+	int		sign;
 
 	sign = 1;
 	i = 0;
@@ -34,7 +34,9 @@ int	ft_atoi(const char *str)
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		number = number * 10 + (str[i] - '0');
+		if (number < 0)
+			return ((-sign) * (sign == 1));
 		i++;
 	}
-	return (number * sign);
+	return ((int)(number * sign));
 }

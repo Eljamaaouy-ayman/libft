@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 22:00:26 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:04:20 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:25:50 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-/*
-int main(){
-	printf("%d",ft_isprint(120));
-	printf("%d",isprint(120));
-}*/

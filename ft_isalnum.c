@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 14:14:27 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:02:21 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:25:24 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,3 @@ int	ft_isalnum(int ch)
 	else
 		return (0);
 }
-/*
-int main(){
-	printf("%d",ft_isalnum('A'));
-	printf("%d",isalnum('A'));
-}*/

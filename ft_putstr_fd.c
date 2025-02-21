@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 20:18:08 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 20:40:47 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 15:29:41 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
 
+	if (fd < 0)
+		return ;
 	if (!s)
 		return ;
 	i = 0;

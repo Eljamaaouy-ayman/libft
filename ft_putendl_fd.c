@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 20:21:53 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 14:09:44 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 15:29:53 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putendl_fd(char *s, int fd)
 {
 	int	i;
 
+	if (fd < 0)
+		return ;
 	if (!s)
 		return ;
 	i = 0;

@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 21:36:02 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:28:05 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:20:03 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main(){
-    printf("%d", ft_strncmp("aymaa", "aymal", 5));
-    printf("%d", strncmp(NULL, "aymal", 5));
-}*/

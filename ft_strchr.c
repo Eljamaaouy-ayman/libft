@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 21:01:37 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:24:30 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:19:08 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)(s + i));
 	return (NULL);
 }
-// int main(){
-//     printf("%s", ft_strchr(NULL, 'y'));
-//     printf("%s", strchr(NULL, 'y'));
-// }

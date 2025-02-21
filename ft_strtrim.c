@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 09:23:23 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 18:43:48 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:20:27 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,10 +45,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	s = ft_substr(s1, start, len);
 	return (s);
 }
-/*
-  int main(){
-		char *s = "eljamelelaaouyaymane1lelellllllle";
-		char *s1 = "el";
-		printf("%s", ft_strtrim(s, s1));
-  }
-*/

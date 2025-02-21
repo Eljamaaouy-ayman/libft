@@ -6,16 +6,14 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 19:16:03 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 18:14:52 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 12:23:05 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
 
 int					ft_isalpha(int c);

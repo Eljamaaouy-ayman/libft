@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 11:54:38 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/11/03 20:38:33 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:18:52 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,19 +111,3 @@ char	**ft_split(char const *s, char c)
 	s1[words] = NULL;
 	return (s1);
 }
-/*
-int	main(void)
-{
-	char	**s;
-	int		i;
-
-	s = ft_split("cccccaymaccc", 'c');
-	i = 0;
-	while (s[i] != NULL)
-	{
-		printf("%s \n", s[i]);
-		i++;
-	}
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 19:32:52 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:54:04 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:19:25 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-// int main(){
-// 	    char str[] = "hello"; 
-//     ft_striteri(str, NULL);
-//     printf("Modified string: %s\n", str);
-//     return 0;
-// }

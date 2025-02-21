@@ -6,7 +6,7 @@
 /*   By: ael-jama <ael-jama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 21:21:11 by ael-jama          #+#    #+#             */
-/*   Updated: 2024/10/31 11:26:16 by ael-jama         ###   ########.fr       */
+/*   Updated: 2024/11/05 16:20:18 by ael-jama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-// int main(){
-//     printf("%s", ft_strrchr("ayman", 'y'));
-//     printf("%s", strrchr("ayman", 'y'));
-// }
